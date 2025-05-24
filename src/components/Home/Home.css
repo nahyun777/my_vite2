@@ -1,0 +1,13 @@
+.home_caed{
+    padding: 2em;
+}
+
+.home_tab_container{
+    margin-top: 20px;
+    display: flex;
+    gap: 6px;
+}
+
+.home_tab_container li{
+    list-style: none;
+}
