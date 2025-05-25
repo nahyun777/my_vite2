@@ -1,4 +1,7 @@
-.tabbutton_active{
-    background: blueviolet;
-    color: white;
+.tabbutton_active {
+  background: blueviolet;
+  color: white;
+}
+.tabbutton li {
+  list-style: none;
 }

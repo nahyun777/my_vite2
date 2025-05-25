@@ -1,12 +1,12 @@
-import {useStat} from 'react'
-import './Footer.css';
+import { useStat } from "react";
+import "./Footer.css";
 
-function Footer(){
-  return(
+export default function Footer() {
+  return (
     <div>
       <p className="footer_read-the-docs">
-          Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more
       </p>
     </div>
-  )
+  );
 }

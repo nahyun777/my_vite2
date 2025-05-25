@@ -1,9 +1,10 @@
 // import {useStat} from 'react'
-import reactLogo from './../asserc'
-import './Header.css';
+import reactLogo from "./../../assets/logo.svg";
+import viteLogo from "/vite.svg";
+import "./Header.css";
 
-function Header(){
-  return(
+export default function Header() {
+  return (
     <div>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -15,5 +16,5 @@ function Header(){
       </div>
       <h1>Vite + React</h1>
     </div>
-  )
+  );
 }
