@@ -9,7 +9,7 @@ export default function TabButton(props){
     return(
         <div>
             <li>
-                <button onClick={props.탭클릭}>
+                <button className={props.isSelected == true ? 'tabbutton_active' : null} onClick={props.탭클릭}>
                     {props.버튼명}
                 </button>
             </li>
